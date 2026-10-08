@@ -1,0 +1,127 @@
+# =========================================================
+# AI YOUTUBE AUTOMATION PLATFORM - STABLE REQUIREMENTS
+# Optimized for Python 3.11 / 3.12 / 3.13
+# =========================================================
+
+# =========================
+# CORE FRAMEWORK
+# =========================
+fastapi
+uvicorn[standard]
+starlette
+
+# =========================
+# AI & LLM
+# =========================
+openai
+python-dotenv
+
+# =========================
+# DATA & VALIDATION
+# =========================
+pydantic
+pydantic-settings
+sqlalchemy
+sqlalchemy-utils
+
+# =========================
+# ASYNC & TASK QUEUE
+# =========================
+celery
+redis
+
+# asyncio-contextmanager removed (unnecessary/broken)
+
+# =========================
+# HTTP & API
+# =========================
+requests
+aiohttp
+httpx
+
+# =========================
+# VIDEO & AUDIO PROCESSING
+# =========================
+moviepy
+ffmpeg-python
+numpy
+
+# av removed temporarily for Python 3.13 compatibility
+
+# =========================
+# AUDIO PROCESSING
+# =========================
+librosa
+pydub
+soundfile
+
+# =========================
+# IMAGE PROCESSING
+# =========================
+pillow
+opencv-python
+scikit-image
+
+# =========================
+# FRONTEND
+# =========================
+streamlit
+streamlit-option-menu
+streamlit-lottie
+
+# =========================
+# YOUTUBE & GOOGLE
+# =========================
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+yt-dlp
+
+# =========================
+# DATABASE
+# =========================
+aiosqlite
+
+# sqlite3-python removed
+# sqlite3 already built into Python
+
+# =========================
+# AI VIDEO & IMAGE APIs
+# =========================
+elevenlabs
+
+# runwayml removed temporarily
+# install manually later if needed
+
+# =========================
+# TEXT PROCESSING
+# =========================
+nltk
+textblob
+spacy
+
+# =========================
+# UTILITIES
+# =========================
+tqdm
+colorama
+python-dateutil
+
+# =========================
+# LOGGING & MONITORING
+# =========================
+python-json-logger
+
+# =========================
+# FILE HANDLING
+# =========================
+python-multipart
+aiofiles
+
+# =========================
+# DEVELOPMENT
+# =========================
+pytest
+black
+flake8
+mypy
